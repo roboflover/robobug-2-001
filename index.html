@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>РОБО-цветы</title>
+  </head>
+  <body class="page">
+    <div class="page__container">
+      <header class="header">
+        <a href="#" class="header__logo" id="up"></a>
+        <ul class="header__lang-links">
+          <li class="header__lang-list">
+            <a
+              href="https://vk.com/roboflovers"
+              target="_blank"
+              class="header__lang-link-vk"
+            ></a>
+          </li>
+          <li class="header__lang-list">
+            <a
+              href="https://t.me/roboflovers"
+              target="_blank"
+              class="header__lang-link-tg"
+            ></a>
+          </li>
+        </ul>
+      </header>
+
+      <main>
+        <section class="lead">
+          <h1 class="lead__title">НЕЙРОННАЯ ДИСКОТЕКА</h1>
+          <p class="lead__subtitle">
+            Преобразователь эмоций в робото-скульптуры с искусственным
+            интеллектом, они питаются эмоциями будто инопланетные организмы и
+            при накоплении 10тыс улыбок рождается новый робоцветок.
+          </p>
+        </section>
+      </main>
+      <section
+        class="places"
+        style="
+          margin: 0 10px 0 10px;
+          justify-content: center;
+          text-align: center;
+        "
+      >
+        <p class="score__number"><i></i></p>
+        <progress value="1" max="10000" class="progress__number"></progress>
+        <p class="place__paragraph"><i>осталось улыбок</i></p>
+        <br /><br />
+        <p class="lead__subtitle"><b>Игры</b></p>
+      </section>
+      <section
+        style="
+          margin: auto;
+          text-align: center;
+          justify-content: center;
+          margin-bottom: 300px;
+        "
+      >
+        <a href="./games/game01/index.html"
+          ><img
+            src="./games/game01/thumbnail.gif"
+            style="
+              margin: 0 10px 0 10px;
+              justify-content: center;
+              text-align: center;
+            "
+            alt="джейн"
+        /></a>
+        <a href="./games/game02/index.html"
+          ><img
+            src="./games/game02/thumbnail.gif"
+            style="
+              margin: 0 10px 0 10px;
+              justify-content: center;
+              text-align: center;
+            "
+            alt="йола"
+        /></a>
+        <a href="./games/game03/index.html"
+          ><img
+            src="./games/game03/thumbnail.gif"
+            alt="осман"
+            style="
+              margin: 0 10px 0 10px;
+              justify-content: center;
+              text-align: center;
+            "
+        /></a>
+      </section>
+
+      <footer class="footer">
+        <nav>
+          <ul class="footer__links">
+            <!--<li class="footer__list">Телефон: +7(903)288-82-86&ensp;&ensp;</li>-->
+            <li></li>
+            <li class="footer__list">Почта: roboflover@robobug.ru</li>
+            <li class="footer__list"></li>
+          </ul>
+
+          <ul class="footer__links">
+            <li class="footer__list">
+              <!--Санкт-Петербург, креативный кластер Ленполиграфмаш-->
+            </li>
+          </ul>
+        </nav>
+
+        <p class="footer__copyright">© 2023. Степан Григорян</p>
+      </footer>
+    </div>
+    <script src="./game.js" type="module"></script>
+  </body>
+</html>
