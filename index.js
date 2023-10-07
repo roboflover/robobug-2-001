@@ -2,14 +2,14 @@ import { WebSocketServer } from 'ws';
 import si from "systeminformation";
 
 const wss = new WebSocketServer({ port: 8080 });
-const mysql = require("mysql2")
+const mysql = require("mysql")
 
-const connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    database: "usersdb",
-    password: "1q2w3e4r"
-})
+// const connection = mysql.createConnection({
+//     host: "localhost",
+//     user: "root",
+//     database: "usersdb",
+//     password: "1q2w3e4r"
+// })
 
 console.log('We are live on 8080');
 
