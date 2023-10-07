@@ -2,7 +2,7 @@ import { WebSocketServer } from 'ws';
 import si from "systeminformation";
 
 const wss = new WebSocketServer({ port: 8080 });
-const mysql = require("mysql")
+// const mysql = require("mysql")
 
 // const connection = mysql.createConnection({
 //     host: "localhost",
